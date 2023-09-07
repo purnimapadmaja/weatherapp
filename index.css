@@ -1,0 +1,85 @@
+.w-com{
+    text-align: center;
+    padding:12px;
+    margin:12px;
+     background-image: linear-gradient(to right, lightgreen, lightblue); 
+    height:100vh;
+    width:80vw;
+        /* background-image: "https: //images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww&w=1000&q=80";
+     */
+}
+.weather-container{
+    /* background-image:url(""); */
+   background-size: cover;
+   height: 120vh;
+   text-align: center;
+}
+.weathercity{
+    border-radius: 12px;
+    border-width: 0px;
+    height:28px;
+    text-align: center;
+}
+.searchimg{
+    height:17px;
+}.search-button{
+    border-radius: 7px;
+    border-width: 0px;
+    height:27px;
+    background-color: white;
+    margin-left:0px;
+    margin-right:0px;
+}
+.rainimage{
+    height:42vh;
+    width:20vw;
+}
+.weathertemp{
+    color:white;
+    font-size:22px;
+    font-weight: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.cityname{
+    color:white;
+    font-size:22px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.weaather-details{
+    display:grid;
+    grid-template-columns: 200px 100px 100px;
+    gap:0px;
+    text-align: center;
+    margin-left:100px;
+margin-right: 400px;
+}
+.horizontalline{
+    border-left: 4px solid white;
+        height: 40px;
+}
+.humidty-image{
+    height:10vh;
+
+
+}
+.error{
+    color:red;
+
+}
+.humidt-percentage{
+    color:white;
+}
+.humidty-container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap:0px;
+  
+}
+.wind-container{
+    display: grid;
+        grid-template-columns: 100px 100px;
+        gap: 0px;
+        margin-right: 400px;
+}
